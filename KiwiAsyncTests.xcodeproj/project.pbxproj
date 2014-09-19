@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35AB1166EFA14C479A356D84 /* libPods-KiwiAsyncTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B51238601D4EF1B3183DEC /* libPods-KiwiAsyncTests.a */; };
 		C7D533C419CAF80D00AE3E23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D533C319CAF80D00AE3E23 /* Foundation.framework */; };
 		C7D533C619CAF80D00AE3E23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D533C519CAF80D00AE3E23 /* CoreGraphics.framework */; };
 		C7D533C819CAF80D00AE3E23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D533C719CAF80D00AE3E23 /* UIKit.framework */; };
@@ -22,6 +23,9 @@
 		C7D533E819CAF80D00AE3E23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D533C719CAF80D00AE3E23 /* UIKit.framework */; };
 		C7D533F019CAF80D00AE3E23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7D533EE19CAF80D00AE3E23 /* InfoPlist.strings */; };
 		C7D533F219CAF80D00AE3E23 /* KiwiAsyncTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D533F119CAF80D00AE3E23 /* KiwiAsyncTestsTests.m */; };
+		C7D533FD19CAF9FB00AE3E23 /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D533FC19CAF9FB00AE3E23 /* API.m */; };
+		C7D533FF19CAFFCC00AE3E23 /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = C7D533FE19CAFFCC00AE3E23 /* success.json */; };
+		FC891AB55B6D4EF695A02317 /* libPods-KiwiAsyncTestsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2A6A677920469CAA1F1B24 /* libPods-KiwiAsyncTestsTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F2A6A677920469CAA1F1B24 /* libPods-KiwiAsyncTestsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KiwiAsyncTestsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF9E1F29725475683C9F580 /* Pods-KiwiAsyncTestsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiAsyncTestsTests.xcconfig"; path = "Pods/Pods-KiwiAsyncTestsTests.xcconfig"; sourceTree = "<group>"; };
+		B5F6FEA2F9E242E68D5D8FAA /* Pods-KiwiAsyncTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiAsyncTests.xcconfig"; path = "Pods/Pods-KiwiAsyncTests.xcconfig"; sourceTree = "<group>"; };
 		C7D533C019CAF80D00AE3E23 /* KiwiAsyncTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiAsyncTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D533C319CAF80D00AE3E23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C7D533C519CAF80D00AE3E23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +62,10 @@
 		C7D533ED19CAF80D00AE3E23 /* KiwiAsyncTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiAsyncTestsTests-Info.plist"; sourceTree = "<group>"; };
 		C7D533EF19CAF80D00AE3E23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7D533F119CAF80D00AE3E23 /* KiwiAsyncTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiAsyncTestsTests.m; sourceTree = "<group>"; };
+		C7D533FB19CAF9FB00AE3E23 /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		C7D533FC19CAF9FB00AE3E23 /* API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = API.m; sourceTree = "<group>"; };
+		C7D533FE19CAFFCC00AE3E23 /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
+		D9B51238601D4EF1B3183DEC /* libPods-KiwiAsyncTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KiwiAsyncTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +76,7 @@
 				C7D533C619CAF80D00AE3E23 /* CoreGraphics.framework in Frameworks */,
 				C7D533C819CAF80D00AE3E23 /* UIKit.framework in Frameworks */,
 				C7D533C419CAF80D00AE3E23 /* Foundation.framework in Frameworks */,
+				35AB1166EFA14C479A356D84 /* libPods-KiwiAsyncTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +87,7 @@
 				C7D533E619CAF80D00AE3E23 /* XCTest.framework in Frameworks */,
 				C7D533E819CAF80D00AE3E23 /* UIKit.framework in Frameworks */,
 				C7D533E719CAF80D00AE3E23 /* Foundation.framework in Frameworks */,
+				FC891AB55B6D4EF695A02317 /* libPods-KiwiAsyncTestsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +101,8 @@
 				C7D533EB19CAF80D00AE3E23 /* KiwiAsyncTestsTests */,
 				C7D533C219CAF80D00AE3E23 /* Frameworks */,
 				C7D533C119CAF80D00AE3E23 /* Products */,
+				B5F6FEA2F9E242E68D5D8FAA /* Pods-KiwiAsyncTests.xcconfig */,
+				9AF9E1F29725475683C9F580 /* Pods-KiwiAsyncTestsTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +122,8 @@
 				C7D533C519CAF80D00AE3E23 /* CoreGraphics.framework */,
 				C7D533C719CAF80D00AE3E23 /* UIKit.framework */,
 				C7D533E519CAF80D00AE3E23 /* XCTest.framework */,
+				D9B51238601D4EF1B3183DEC /* libPods-KiwiAsyncTests.a */,
+				8F2A6A677920469CAA1F1B24 /* libPods-KiwiAsyncTestsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,6 +139,8 @@
 				C7D533DC19CAF80D00AE3E23 /* ViewController.m */,
 				C7D533DE19CAF80D00AE3E23 /* Images.xcassets */,
 				C7D533CA19CAF80D00AE3E23 /* Supporting Files */,
+				C7D533FB19CAF9FB00AE3E23 /* API.h */,
+				C7D533FC19CAF9FB00AE3E23 /* API.m */,
 			);
 			path = KiwiAsyncTests;
 			sourceTree = "<group>";
@@ -142,6 +161,7 @@
 			children = (
 				C7D533F119CAF80D00AE3E23 /* KiwiAsyncTestsTests.m */,
 				C7D533EC19CAF80D00AE3E23 /* Supporting Files */,
+				C7D533FE19CAFFCC00AE3E23 /* success.json */,
 			);
 			path = KiwiAsyncTestsTests;
 			sourceTree = "<group>";
@@ -162,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7D533F519CAF80D00AE3E23 /* Build configuration list for PBXNativeTarget "KiwiAsyncTests" */;
 			buildPhases = (
+				E33F51470AFF4EC9967E8A37 /* Check Pods Manifest.lock */,
 				C7D533BC19CAF80D00AE3E23 /* Sources */,
 				C7D533BD19CAF80D00AE3E23 /* Frameworks */,
 				C7D533BE19CAF80D00AE3E23 /* Resources */,
+				D8C3F1A1FA704ECBAAD111B0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7D533F819CAF80D00AE3E23 /* Build configuration list for PBXNativeTarget "KiwiAsyncTestsTests" */;
 			buildPhases = (
+				306F9725A5354024881D45B6 /* Check Pods Manifest.lock */,
 				C7D533E019CAF80D00AE3E23 /* Sources */,
 				C7D533E119CAF80D00AE3E23 /* Frameworks */,
 				C7D533E219CAF80D00AE3E23 /* Resources */,
+				9A798B54AFAF4153AE308384 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,10 +267,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7D533F019CAF80D00AE3E23 /* InfoPlist.strings in Resources */,
+				C7D533FF19CAFFCC00AE3E23 /* success.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		306F9725A5354024881D45B6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A798B54AFAF4153AE308384 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-KiwiAsyncTestsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8C3F1A1FA704ECBAAD111B0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-KiwiAsyncTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E33F51470AFF4EC9967E8A37 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C7D533BC19CAF80D00AE3E23 /* Sources */ = {
@@ -255,6 +343,7 @@
 			files = (
 				C7D533DD19CAF80D00AE3E23 /* ViewController.m in Sources */,
 				C7D533D419CAF80D00AE3E23 /* AppDelegate.m in Sources */,
+				C7D533FD19CAF9FB00AE3E23 /* API.m in Sources */,
 				C7D533D019CAF80D00AE3E23 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,6 +476,7 @@
 		};
 		C7D533F619CAF80D00AE3E23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F6FEA2F9E242E68D5D8FAA /* Pods-KiwiAsyncTests.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -400,6 +490,7 @@
 		};
 		C7D533F719CAF80D00AE3E23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F6FEA2F9E242E68D5D8FAA /* Pods-KiwiAsyncTests.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -413,6 +504,7 @@
 		};
 		C7D533F919CAF80D00AE3E23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AF9E1F29725475683C9F580 /* Pods-KiwiAsyncTestsTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KiwiAsyncTests.app/KiwiAsyncTests";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -435,6 +527,7 @@
 		};
 		C7D533FA19CAF80D00AE3E23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AF9E1F29725475683C9F580 /* Pods-KiwiAsyncTestsTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KiwiAsyncTests.app/KiwiAsyncTests";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -470,6 +563,7 @@
 				C7D533F719CAF80D00AE3E23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7D533F819CAF80D00AE3E23 /* Build configuration list for PBXNativeTarget "KiwiAsyncTestsTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +572,7 @@
 				C7D533FA19CAF80D00AE3E23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
